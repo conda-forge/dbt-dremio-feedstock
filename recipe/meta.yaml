@@ -6,8 +6,10 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dbt-dremio-{{ version }}.tar.gz
-  sha256: f9e5baf01b6256c7c1dc0456bfa0d7444628359f91136a90214c7c63db8f5181
+#  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dbt-dremio-{{ version }}.tar.gz
+#  sha256: f9e5baf01b6256c7c1dc0456bfa0d7444628359f91136a90214c7c63db8f5181
+  url: https://github.com/dremio/dbt-dremio/releases/download/v1.3.2/dbt-dremio-1.3.2.tar.gz
+  sha256: f7f6b0bfb8bc696f6910b4ac4e1ddaa28982348429ee1ba5ab60890047d3cd3a
 
 build:
   noarch: python
@@ -34,7 +36,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - jlarue26
-    - ravjotbrar
-    - ArgusLi
     - rxm7706

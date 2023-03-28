@@ -1,11 +1,11 @@
-About dbt-dremio
-================
+About dbt-dremio-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dbt-dremio-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dremio/dbt-dremio
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dbt-dremio-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Dremio adapter plugin for dbt
 

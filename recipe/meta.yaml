@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.7,<3.11
-    - dbt-core>=1.2, <=1.4.5
+    - dbt-core >=1.2,<=1.4.5
 
 test:
   imports:

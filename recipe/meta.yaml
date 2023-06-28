@@ -1,5 +1,5 @@
 {% set name = "dbt-dremio" %}
-{% set version = "1.4.5" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dbt-dremio-{{ version }}.tar.gz
-  sha256: e3168ab1508282e1f511cb103cd68c2c0d84e53f9e77d96495b2e961355fc4fc
+  sha256: 5bf68c20efe4cd331fd274dcaa371463b792e123e5ca21545fe2150b700d5b51
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.7,<3.11
-    - dbt-core >=1.2,<=1.4.5
+    - dbt-core >=1.2,<1.6.0
 
 test:
   imports:

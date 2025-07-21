@@ -1,5 +1,5 @@
 {% set name = "dbt-dremio" %}
-{% set version = "1.8.4" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 76c866ae4272720193d60a57dd7845d90d12febcfdd2d5644b274e9c8b71dec2
+  sha256: 56d842ebc384d59085d0a2abe989e76791e708db1ac00220e5e7c1c8c39063d9
 
 build:
   noarch: python

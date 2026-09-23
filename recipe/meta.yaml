@@ -1,13 +1,13 @@
 {% set name = "dbt-dremio" %}
-{% set version = "1.10.1" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 6b0bc19dffe45984bee95217078579936f276630e3892c8816bba3efcbb0f22f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: a5c8caab8503b742439893cfda6c67647dcd166932cb7625c827e41e4bf9552b
 
 build:
   noarch: python
